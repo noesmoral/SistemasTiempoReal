@@ -1,0 +1,115 @@
+V "GNAT Lib v4.8"
+M P W=b
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK
+
+U medir1%b		medir1.adb		269edc75 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.float_io%s
+W calefactor%s		calefactor.adb		calefactor.ali
+W sensor%s		sensor.adb		sensor.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-reatim.ads		20090409150019 63f07669
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiflau.ads		20090409150019 c0393f21
+D a-tiflio.ads		20090409150019 56fbda09
+D a-tiflio.adb		20090409150019 fd9b1cfc
+D a-unccon.ads		20070406091342 f9eb8f06
+D calefactor.ads	20160223155444 7ef44599
+D interfac.ads		20110906094621 129923ea
+D i-c.ads		20110801143639 5421119b
+D i-cstrea.ads		20130102105938 3286f6aa
+D medir1.adb		20160224084304 4c33e51e
+D sensor.ads		20160223155442 4fc4ff4f
+D system.ads		20140416144310 90249111
+D s-atacco.ads		20120515093410 4c36d12f
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-fatflt.ads		20090409150019 11beb392
+D s-fatgen.ads		20090409150019 9267ca45
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-linux.ads		20110906091515 70c7cb45
+D s-multip.ads		20101011073009 38ac9f73
+D s-oscons.ads		20140416144311 70c72966
+D s-osinte.ads		20120309145048 938b6b03
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20110804134155 017a0a05
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-tasinf.ads		20120730151500 21316953
+D s-taspri.ads		20110927094500 15f617a8
+D s-taprop.ads		20111212143339 1dd2e1b6
+D s-taskin.ads		20121029113218 59e95256
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 17|1r6 1r19 1r58 1r71 6r31 7r31 8r30
+X 5 a-reatim.ads
+39K13*Real_Time 139e18 17|1w23 1r75
+41O9*Time 17|15r22
+46O9*Time_Span 17|14r11
+53V13*Clock{41O9} 17|27s16 32s17
+58V14*"-"{46O9} 17|33s18
+X 8 a-textio.ads
+49K13*Text_IO 471e16 17|1w10 1r62 6r35 7r35 8r34
+73I12*Field{integer}
+166U14*New_Line 17|44s9 46s9 48s9 50s9 52s9 54s9
+242U14*Put 17|43s9 47s9 51s9
+X 10 a-tiflio.ads
+45k21*Float_IO 88e25 17|6r43 7r43 8r42
+67U14 Put 17|45s16[6] 53s15[8]
+69i7 Fore{8|73I12} 17|45r23[6] 53r22[8]
+70i7 Aft{8|73I12} 17|45r31[6] 53r30[8]
+71i7 Exp{8|73I12} 17|45r38[6] 53r37[8]
+X 13 calefactor.ads
+1K9*Calefactor 8e15 17|1w42 1r94
+5F9*Potencias<float> 17|7r52 16r13
+7U14*Escribir 17|26s9 56s9
+X 17 medir1.adb
+3U11*Medir1 3b11 57l5 57t11
+6K17 Tem_Es[10|45] 45r9
+7K17 Tim_Es[10|45]
+8K17 CP_Es[10|45] 53r9
+11f9 Te{18|2F9} 23m14 30r27 38r30 45r20
+12f9 TeAux{18|2F9} 29m22 30r31 37m22 38m17 38r24 39r39 40r49
+14o9 L{5|46O9} 33m9
+15o9 Start{5|41O9} 27m9 33r19
+15o15 Finish{5|41O9} 32m9 33r12
+16f9 Pot{13|5F9} 26r18 39r28 40r34
+18f9 Cp{float} 39m17 40r39 53r19
+X 18 sensor.ads
+1K9*Sensor 17|1w34 1r86 18|5e11
+2F9*Temperaturas<float> 17|6r52 11r12 12r15
+4U14*Leer 17|23s9 29s17 37s17
+X 36 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

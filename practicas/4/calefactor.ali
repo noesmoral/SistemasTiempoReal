@@ -1,0 +1,28 @@
+V "GNAT Lib v4.8"
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK
+
+U calefactor%b		calefactor.adb		2a047646 NE OO PK
+W horno%s		horno.ads		horno.ali
+
+U calefactor%s		calefactor.ads		7ef44599 EE NE OO PK
+
+D calefactor.ads	20160223155444 7ef44599
+D calefactor.adb	20160224083511 cd3f8026
+D horno.ads		20160224084723 99cfb3f9
+D system.ads		20140416144310 90249111
+X 1 calefactor.ads
+1K9*Calefactor 8l5 8e15 2|3b14 10l5 10t15
+5F9*Potencias<float> 7r37 2|5r42
+7U14*Escribir 7>24 2|5b19 8l13 8t21
+7f24 la_Potencia{5F9} 2|5b29 7r48
+X 3 horno.ads
+1K9*Horno 2|1w6 7r17 7r32 3|7e10
+3F9*Potencias<float> 2|7r38
+5U14*Escribir 2|7s23
+

@@ -1,0 +1,100 @@
+V "GNAT Lib v4.6"
+P ZX
+R nnvnnnnnnnvnnnnnnnnnnnnvnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U plan%b		plan.adb		eebbdb84 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+
+U plan%s		plan.ads		bf7c85cf EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20090727140100 0c711ac9
+D a-reatim.ads		20090409150019 63f07669
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D plan.ads		20160416161606 dc8cf3a6
+D plan.adb		20160416162309 51c75e4b
+D system.ads		20140416172229 23e1f70b
+D s-atacco.ads		20090409150019 1dc856ad
+D s-exctab.ads		20090417131547 66e51330
+D s-linux.ads		20090730092306 47911ab1
+D s-multip.ads		20101011073009 38ac9f73
+D s-osinte.ads		20101127183452 6e2d2e09
+D s-parame.ads		20091130110856 9c5d83fa
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20101018101807 bba781f7
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-tasinf.ads		20090409150019 21316953
+D s-taspri.ads		20080408071349 af44aca8
+D s-taprop.ads		20090409150019 07f79e46
+D s-taskin.ads		20101021101406 b2eaee08
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+X 1 ada.ads
+16K9*Ada 19e8 7|1r6 2r5 8|1r6 2r5
+X 3 a-reatim.ads
+39K13*Real_Time 139e18 7|1w10 2r9 8|1w10 2r9
+41O9*Time 8|7r10 73r10
+46O9*Time_Span 8|8r15 74r42
+53V13*Clock{41O9} 8|11s29 13s29 77s21 81s21 85s29 89s29
+58V13*"-"{46O9} 8|14s39 82s36 90s39 91s38
+66V13*"-"{46O9} 8|91s42
+80V13*To_Duration{duration} 8|15s45 92s45
+X 7 plan.ads
+4K9*plan 23l5 23e9 8|4b14 96l5 96t9
+6P14*ref_Procedimiento 7r70
+7A14*array_ref_Procedimiento(6P14)<integer> 19r42 22r82 8|6r37 72r77
+8A14*array_Tiempos(natural)<integer> 19r81 22r121 8|6r76 72r116
+9R14*reg_Planificacion 17e19 20r70 8|20r15
+10i17*Nombre{positive}
+11i17*T{natural} 8|52r64 54r63
+12i17*D{natural} 8|26r46 26r62 48r57 66r53
+13i17*C{natural} 8|45r48 58r69 60r46 93m35
+14i17*P{positive} 8|35m35
+15i17*R{natural} 8|62m35 66r38
+16b17*Planificable{boolean} 8|67m43
+19U19*Medir 19>26 19<67 8|6b14 17l8 17t13
+19a26 Procedimientos{7A14} 8|6b21 10r26 12r25
+19a67 Tiempos{8A14} 8|6b62 15m25
+20A14*array_reg_Planificacion(9R14)<integer> 21r46 22r41 8|19r41 72r36
+21U19*Planificar 21=31 8|19b14 70l8 70t18
+21a31 Tareas{20A14} 8|19b26 24r26 25r37 26r36 26r50 27r53 28m41 28r52 29m41
+. 34r26 35m25 40r29 44r37 45r38 48r47 51r49 52r54 54r53 58r59 60r36 62m25
+. 65r26 66r28 66r43 67m33
+22U19*MedirC 22=26 22>66 22<107 8|72b14 95l8 95t14
+22a26 Tareas{20A14} 8|72b21 93m25
+22a66 Procedimientos{7A14} 8|72b61 84r26 87r33
+22a107 Tiempos{8A14} 8|72b102 92m25 93r38
+X 8 plan.adb
+7o4 T1{3|41O9} 11m25 14r40
+7o7 T2{3|41O9} 13m25 14r37
+8o4 Diferencia{3|46O9} 14m25 15r57
+10i21 I{integer} 12r40 15r33
+20r4 auxBurbuja{7|9R14} 27m41 29r54
+21i4 W{integer} 42m25 45m33 45r36 48r33 48r45 49r37 60m33 62r38
+21i6 W2{integer} 41m25 42r28 48r36 49m33 52r51 54r46
+21i9 var{integer} 50m33 58m41 58r46 60r48
+21i13 Division{integer} 52m41 55m49 55r59 58r50
+24i21 I{integer}
+25i29 J{integer} 26r43 26r57 27r60 28r48 28r59 29r48
+34i21 I{integer} 35r32 35r38
+40i21 I{integer} 44r34 48r54 51r43 60r43 62r32
+44i29 J{integer} 45r45
+51i37 J{integer} 52r61 54r60 58r66
+65i21 I{integer} 66r35 66r50 67r40
+73o4 T1{3|41O9} 77m17 82r37 85m25 90r40 91r39
+73o7 T2{3|41O9} 81m17 82r34 89m25 90r37 91r36
+74o4 DiferenciaVacia{3|46O9} 82m17 91r43
+74o21 Diferencia{3|46O9} 90m25
+74o33 tiempoCp{3|46O9} 91m25 92r57
+78i21 I{integer}
+84i21 I{integer} 87r48 92r33 93r32 93r46
+86i29 J{integer}
+

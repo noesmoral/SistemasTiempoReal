@@ -1,0 +1,70 @@
+V "GNAT Lib v4.4"
+P ZX
+R nvnnnnvnnnnnnnnnnnnnvvnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnv1+nn
+
+U retardadores%b	retardadores.adb	abffe46b NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+
+U retardadores%s	retardadores.ads	e63b6935 BN EE NE OO PK GE
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232307 b54b55de
+D a-reatim.ads		20090409232307 7c462ab4
+D a-unccon.ads		20070406091342 51e09df2
+D interfac.ads		20090409232307 a69cad5c
+D i-c.ads		20070406091342 bc3ef662
+D retardadores.ads	20150304081751 e63b6935
+D retardadores.adb	20150304081751 3182a7ea
+D system.ads		20100127090222 df55302f
+D s-atacco.ads		20090409232307 60789a20
+D s-exctab.ads		20090409232307 5c1c61ae
+D s-linux.ads		20090409232307 ad070dbe
+D s-osinte.ads		20080408064315 b04c0edf
+D s-parame.ads		20090409232307 f32e56e9
+D s-soflin.ads		20090409232307 0c6fd39d
+D s-stache.ads		20090409232307 257b3be8
+D s-stausa.ads		20090409232307 6ab7dd35
+D s-stalib.ads		20090409232307 52b793d5
+D s-stoele.ads		20090409232307 ed966df3
+D s-stoele.adb		20090409232307 e9998c78
+D s-tasinf.ads		20090409232307 268f0cd4
+D s-taspri.ads		20080408071349 5459bcd0
+D s-taprop.ads		20090409232307 25a7965c
+D s-taskin.ads		20090409232307 376ff2dd
+D s-traent.ads		20090409232307 bd5f2753
+D s-unstyp.ads		20090409232307 c0f9fae5
+X 1 ada.ads
+16K9*Ada 19e8 8|1r6 1r25
+X 3 a-reatim.ads
+39K13*Real_Time 139e18 8|1w10 1r29
+41O9*Time 8|35r27
+46O9*Time_Span 8|33r25
+53V13*Clock{41O9} 8|35r35
+55V13*"+"{41O9} 8|40r51
+81V13*To_Time_Span{46O9} 8|34r11
+X 7 retardadores.ads
+2f4 Retardo{float} 8|34r34
+3+9 Elementos 6r37 7r37 8|3r49 6r40 7r40 11r24 14r40 18r40 44r37 48r37
+4i4 Tamaño{positive} 8|3r38 34r52
+5k9*Retardadores 2z4 3z9 4z4 9l5 9e17 8|2b14 56l5 56t17
+6U14*Escribir 6>24 8|44b14 47l8 47t16
+6*24 el_Elemento{3+9} 8|44b24 46r34
+7U14*Leer 7<20 8|48b14 51l8 51t12
+7*20 un_Elemento{3+9} 8|48b20 50m30
+8U14*Parar 8|52b14 55l8 55t13
+X 8 retardadores.adb
+3A9 array_Elementos(7|3+9)<integer> 10r14
+5w14 Línea_de_Retardo 13b19 29l8 29t24 39r10 46r7 50r7
+6U17 Escribir 6>27 14b17 17l11 17t19 46r24
+6*27 el_Elemento{7|3+9} 14b27 16r21
+7U17 Leer 7<23 18b17 21l11 21t15 50r24
+7*23 un_Elemento{7|3+9} 18b23 20m10
+8U17 Desplazar 22b17 28l11 28t20 39r27
+10a7 Línea{3A9} 24r20 24r27 25m10 25r17 25r32 26r27 26r34 26r47 27m10 27r17
+11*7 Entrada{7|3+9} 16m10 27r33
+11*16 Salida{7|3+9} 20r25 24m10
+31t9 Centinela 32b14 42l8 42t17 54r13
+33o7 Periodo{3|46O9} 40r53
+35o7 Instante_Siguiente{3|41O9} 38r22 40m10 40r32
+

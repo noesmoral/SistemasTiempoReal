@@ -1,0 +1,24 @@
+V "GNAT Lib v4.4"
+A -mtune=generic
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U calefactor%b		calefactor.adb		a9261d9d NE OO PK
+W horno%s		horno.adb		horno.ali
+
+U calefactor%s		calefactor.ads		9b2d436f EE NE OO PK
+
+D calefactor.ads	20160302060744 9b2d436f
+D calefactor.adb	20160302060744 5e512644
+D horno.ads		20160302060746 6c5a78b6
+D system.ads		20100127090222 df55302f
+X 1 calefactor.ads
+1K9*Calefactor 8l5 8e15 2|3b14 10l5 10t15
+5F9*Potencias<float> 7r37 2|5r42
+7U14*Escribir 7>24 2|5b19 8l13 8t21
+7f24 la_Potencia{5F9} 2|5b29 7r48
+X 3 horno.ads
+1K9*Horno 2|1w6 7r17 7r32 3|7e10
+3F9*Potencias<float> 2|7r38
+5U14*Escribir 2|7r23
+

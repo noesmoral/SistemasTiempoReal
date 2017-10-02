@@ -1,0 +1,33 @@
+V "GNAT Lib v4.6"
+M P W=b
+P ZX
+R nnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U principal%b		principal.adb		bb5e1d94 NE OO SU IL
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W pantalla%s		pantalla.adb		pantalla.ali
+W reloj%s		reloj.adb		reloj.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20090409150019 343c83dd
+D a-caldel.ads		20090409150019 9f20b83d
+D a-unccon.ads		20070406091342 f9eb8f06
+D pantalla.ads		20160427074827 30790d9d
+D principal.adb		20160427173657 f2e065ed
+D reloj.ads		20160425191107 79c775e4
+D system.ads		20140416172229 23e1f70b
+D s-exctab.ads		20090417131547 66e51330
+D s-stalib.ads		20101021102512 c4241c00
+X 5 pantalla.ads
+1K9*pantalla 6e13 6|1w6 4r18 32r4 34r7 34r39
+2I17*Filas{natural} 6|4r27
+3I17*Columnas{natural} 6|34r48
+4U19*Borrar 6|32s13
+5U19*Escribir 6|34s16
+X 6 principal.adb
+3U11*principal 3b11 40l5 40t14
+4a4 Marco(string) 33r13 34r26
+33i8 I{integer} 34r32 34r36
+X 7 reloj.ads
+1K9*reloj 6|1w16 7|5e10
+

@@ -1,0 +1,64 @@
+V "GNAT Lib v4.6"
+P ZX
+R nnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U proc%b		proc.adb		f8f983de NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+
+U proc%s		proc.ads		b02b0f6d EE NE OO PK IL
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20090727140100 0c711ac9
+D a-reatim.ads		20090409150019 63f07669
+D a-retide.ads		20090409150019 081cdaa4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D proc.ads		20160416094620 b02b0f6d
+D proc.adb		20160416100636 2b22fada
+D system.ads		20140416172229 23e1f70b
+D s-atacco.ads		20090409150019 1dc856ad
+D s-exctab.ads		20090417131547 66e51330
+D s-linux.ads		20090730092306 47911ab1
+D s-multip.ads		20101011073009 38ac9f73
+D s-osinte.ads		20101127183452 6e2d2e09
+D s-parame.ads		20091130110856 9c5d83fa
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20101018101807 bba781f7
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-tasinf.ads		20090409150019 21316953
+D s-taspri.ads		20080408071349 af44aca8
+D s-taprop.ads		20090409150019 07f79e46
+D s-taskin.ads		20101021101406 b2eaee08
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+X 1 ada.ads
+16K9*Ada 19e8 9|1r6 2r5
+X 3 a-reatim.ads
+39K13*Real_Time 139e18 9|1w10 2r9
+41O9*Time 9|7r25 15r25 23r25 31r25
+46O9*Time_Span 9|8r34 16r34 24r34 32r34
+53V13*Clock{41O9} 9|10s27 18s27 26s27 34s27
+55V13*"+"{41O9} 9|11s36 19s36 27s36 35s36
+81V13*To_Time_Span{46O9} 9|8s45 16s45 24s45 32s45
+X 8 proc.ads
+1K9*proc 6l5 6e9 9|4b14 38l5 38t9
+2U19*P1 9|6b19 12l13 12t15
+3U19*P2 9|14b19 20l13 20t15
+4U19*P3 9|22b19 28l13 28t15
+5U19*P4 9|30b19 36l13 36t15
+X 9 proc.adb
+7o17 Esperar{3|41O9} 10m17 11r29
+8o17 periodo{3|46O9} 11r37
+15o17 Esperar{3|41O9} 18m17 19r29
+16o17 periodo{3|46O9} 19r37
+23o17 Esperar{3|41O9} 26m17 27r29
+24o17 periodo{3|46O9} 27r37
+31o17 Esperar{3|41O9} 34m17 35r29
+32o17 periodo{3|46O9} 35r37
+

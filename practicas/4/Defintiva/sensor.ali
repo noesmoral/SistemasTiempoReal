@@ -1,0 +1,24 @@
+V "GNAT Lib v4.4"
+A -mtune=generic
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U sensor%b		sensor.adb		83f8b402 NE OO PK
+W horno%s		horno.adb		horno.ali
+
+U sensor%s		sensor.ads		f39b45dd EE NE OO PK
+
+D horno.ads		20160302060746 6c5a78b6
+D sensor.ads		20160302060750 f39b45dd
+D sensor.adb		20160302060750 1c398969
+D system.ads		20100127090222 df55302f
+X 1 horno.ads
+1K9*Horno 7e10 3|1w6 7r17 7r28
+2F9*Temperaturas<float> 3|7r34
+6U14*Leer 3|7r23
+X 2 sensor.ads
+1K9*Sensor 5l5 5e11 3|3b14 10l5 10t11
+2F9*Temperaturas<float> 4r40 3|5r45
+4U14*Leer 4<20 3|5b19 8l13 8t17
+4f20 la_Temperatura{2F9} 3|5b25 7m47
+

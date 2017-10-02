@@ -1,0 +1,28 @@
+V "GNAT Lib v4.8"
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK
+
+U sensor%b		sensor.adb		8f056307 NE OO PK
+W horno%s		horno.ads		horno.ali
+
+U sensor%s		sensor.ads		4fc4ff4f EE NE OO PK
+
+D horno.ads		20160224084723 99cfb3f9
+D sensor.ads		20160223155442 4fc4ff4f
+D sensor.adb		20160224083514 590e2fb1
+D system.ads		20140416144310 90249111
+X 1 horno.ads
+1K9*Horno 7e10 3|1w6 7r17 7r28
+2F9*Temperaturas<float> 3|7r34
+6U14*Leer 3|7s23
+X 2 sensor.ads
+1K9*Sensor 5l5 5e11 3|3b14 10l5 10t11
+2F9*Temperaturas<float> 4r40 3|5r45
+4U14*Leer 4<20 3|5b19 8l13 8t17
+4f20 la_Temperatura{2F9} 3|5b25 7m47 7r47
+
